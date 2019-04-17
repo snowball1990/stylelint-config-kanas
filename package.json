@@ -20,11 +20,11 @@
     "url": "https://github.com/snowball1990/stylelint-config-kanas/issues"
   },
   "homepage": "https://github.com/snowball1990/stylelint-config-kanas#readme",
+  "devDependencies": {
+    "stylelint": "^10.0.1"
+  },
   "dependencies": {
     "@namics/stylelint-bem": "^5.1.1",
     "stylelint-config-standard": "^18.3.0"
-  },
-  "devDependencies": {
-    "stylelint": "^10.0.1"
   }
 }
