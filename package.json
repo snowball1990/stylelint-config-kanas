@@ -1,0 +1,30 @@
+{
+  "name": "@kanas/stylelint-config-kanas",
+  "version": "1.0.0",
+  "description": "StyleLint config for Kanas",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowball1990/stylelint-config-kanas.git"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 10"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "snowball <snowballer0705@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowball1990/stylelint-config-kanas/issues"
+  },
+  "homepage": "https://github.com/snowball1990/stylelint-config-kanas#readme",
+  "dependencies": {
+    "@namics/stylelint-bem": "^5.1.1",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "devDependencies": {
+    "stylelint": "^10.0.1"
+  }
+}
