@@ -46,7 +46,7 @@ module.exports = {
   // https://stylelint.docschina.org/user-guide/rules/length-zero-no-unit/
   "length-zero-no-unit": true,
   // https://stylelint.docschina.org/user-guide/rules/number-leading-zero/
-  "number-leading-zero": true,
+  "number-leading-zero": "always",
   // https://stylelint.docschina.org/user-guide/rules/number-no-trailing-zeros/
   "number-no-trailing-zeros": true,
 
