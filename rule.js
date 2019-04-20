@@ -6,7 +6,7 @@ module.exports = {
   // https://stylelint.docschina.org/user-guide/rules/color-no-invalid-hex/
   "color-no-invalid-hex": true,
   // https://stylelint.docschina.org/user-guide/rules/color-hex-case/
-  "color-hex-case": "upper",
+  "color-hex-case": "lower",
   // https://stylelint.docschina.org/user-guide/rules/color-named/
   "color-named": "never",
   // https://stylelint.docschina.org/user-guide/rules/color-hex-length/
@@ -19,6 +19,8 @@ module.exports = {
   "function-calc-no-invalid": true,
   // https://stylelint.docschina.org/user-guide/rules/function-calc-no-unspaced-operator/
   "function-calc-no-unspaced-operator": true,
+  // https://stylelint.docschina.org/user-guide/rules/function-linear-gradient-no-nonstandard-direction/
+  "function-linear-gradient-no-nonstandard-direction": true,
 
   // =====================================================================
   // Style Block Rules
@@ -26,7 +28,12 @@ module.exports = {
   // https://stylelint.docschina.org/user-guide/rules/no-duplicate-at-import-rules/
   "no-duplicate-at-import-rules": true,
   // https://stylelint.docschina.org/user-guide/rules/declaration-block-no-duplicate-properties/
-  "declaration-block-no-duplicate-properties": true,
+  "declaration-block-no-duplicate-properties": [
+    true,
+    {
+      ignore: ["consecutive-duplicates"]
+    }
+  ],
   // https://stylelint.docschina.org/user-guide/rules/declaration-block-no-shorthand-property-overrides/
   "declaration-block-no-shorthand-property-overrides": true,
   // https://stylelint.docschina.org/user-guide/rules/declaration-block-single-line-max-declarations/
@@ -37,12 +44,16 @@ module.exports = {
   "comment-no-empty": true,
   // https://stylelint.docschina.org/user-guide/rules/no-invalid-double-slash-comments/
   "no-invalid-double-slash-comments": true,
+  // https://stylelint.docschina.org/user-guide/rules/font-family-no-missing-generic-family-keyword/
+  "font-family-no-missing-generic-family-keyword": null,
+  // https://stylelint.docschina.org/user-guide/rules/no-descending-specificity/
+  "no-descending-specificity": null,
 
   // =====================================================================
   // Style Unit Rules
   // =====================================================================
   // https://stylelint.docschina.org/user-guide/rules/unit-blacklist/
-  "unit-blacklist": ["em", "dpi", "rpx"],
+  "unit-blacklist": ["em", "dpi", "pt"],
   // https://stylelint.docschina.org/user-guide/rules/length-zero-no-unit/
   "length-zero-no-unit": true,
   // https://stylelint.docschina.org/user-guide/rules/number-leading-zero/
