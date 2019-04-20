@@ -4,7 +4,7 @@ module.exports = {
   // BEM Style Guide 👉 http://getbem.com/naming/
   // or https://en.bem.info/methodology/naming-convention/#naming-rules
   plugins: ["stylelint-order", "@namics/stylelint-bem"],
-  extends: ["stylelint-config-standard"],
+  extends: ["stylelint-config-standard","stylelint-config-prettier"],
   rules: {
     // =====================================================================
     // Style Name Rules
@@ -84,7 +84,8 @@ module.exports = {
           "opacity",
           "visibility",
           "overflow",
-          "cursor"
+          "cursor",
+          "user-select"
         ]
       },
       {
@@ -115,7 +116,8 @@ module.exports = {
         groupName: "others",
         emptyLineBefore: "always",
         properties: [
-          "tranform", 
+          "tranform",
+          "transition", 
           "animation", 
           "z-index"
         ]
