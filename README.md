@@ -7,10 +7,10 @@
 ```bash
 
 # npm
-npm install eslint @kanas/stylelint-config-kanas -D
+npm install stylelint @kanas/stylelint-config-kanas -D
 
 # yarn
-yarn add eslint @kanas/stylelint-config-kanas -D
+yarn add stylelint @kanas/stylelint-config-kanas -D
 
 ```
 
@@ -21,7 +21,7 @@ You can create a file .stylelintrc.js in the project root directory,Configuratio
 ```javascript
 // .stylelintrc.js
 module.exports = {
-  extends: ["@kanas/stylelintrc-config-kanas"]
+  extends: ["@kanas/stylelint-config-kanas"]
 };
 ```
 
