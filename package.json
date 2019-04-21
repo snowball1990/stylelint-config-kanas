@@ -1,6 +1,6 @@
 {
   "name": "@kanas/stylelint-config-kanas",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "StyleLint config for Kanas",
   "main": "index.js",
   "repository": {
