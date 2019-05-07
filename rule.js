@@ -66,7 +66,7 @@ module.exports = {
   // =====================================================================
   // ⚠️ PostCSS Built-in Plugin autoprefixer will fix prefix ⚠️
   // https://stylelint.docschina.org/user-guide/rules/media-feature-name-no-vendor-prefix/
-  "media-feature-name-no-vendor-prefix": true,
+  "media-feature-name-no-vendor-prefix": null,
   // https://stylelint.docschina.org/user-guide/rules/at-rule-no-vendor-prefix/
   "at-rule-no-vendor-prefix": true,
   // https://stylelint.docschina.org/user-guide/rules/selector-no-vendor-prefix/
